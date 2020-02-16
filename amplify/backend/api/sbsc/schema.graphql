@@ -1,0 +1,11 @@
+type Session
+  @model(
+    subscriptions: {
+      onUpdate: ["onUpdateSessionByUserId(id: String!, userId: String!)"]
+    }
+  )
+  @key(fields: ["id", "userId"]) {
+  id: ID!
+  userId: String!
+  location: String
+}
