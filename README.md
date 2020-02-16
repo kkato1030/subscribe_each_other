@@ -17,6 +17,21 @@ $ amplify init
 $ amplify push
 ```
 
+### Table Data Initialize
+
+add two data in DynamoDB Table
+
+```
+{
+  "id": "saehaRo2cie4u",
+  "userId": "A"
+},
+{
+  "id": "saehaRo2cie4u",
+  "userId": "B"
+}
+```
+
 ### Compiles and hot-reloads for development
 
 ```
